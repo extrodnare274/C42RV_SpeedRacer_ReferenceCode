@@ -25,17 +25,24 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 
     <script>
-      var firebaseConfig = {
-        apiKey: "AIzaSyB0PCtYfnpcOZtQ43__6EOJpR8ksqaQMF8",
-        authDomain: "multiplayer-car-race-game.firebaseapp.com",
-        databaseURL: "https://multiplayer-car-race-game.firebaseio.com",
-        projectId: "multiplayer-car-race-game",
-        storageBucket: "multiplayer-car-race-game.appspot.com",
-        messagingSenderId: "763343808168",
-        appId: "1:763343808168:web:a1cbfd937b213d15"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+     // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAGUqnHcSq7qpiJrgknCmQyu3XNj5RR9QQ",
+  authDomain: "racingproject-4a9ac.firebaseapp.com",
+  databaseURL: "https://racingproject-4a9ac-default-rtdb.firebaseio.com",
+  projectId: "racingproject-4a9ac",
+  storageBucket: "racingproject-4a9ac.appspot.com",
+  messagingSenderId: "229981650649",
+  appId: "1:229981650649:web:fd2f3bbfbe911a042f48c8"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
     </script>
   </head>
   <body>
